@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypingLab</title>
+    <script src="/scripts/config.js" defer></script>
+    <script src="/scripts/script.js" defer ></script>
+    <script src="/scripts/main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+
+    <header>
+        <h1>TypingLab</h1>
+        <h2>L'application pour écrire plus vite</h2>
+        <h3> TypingLab est une application en ligne pour apprendre à taper plus vite au clavier:)</h3>
+    </header>
+    <main>
+        <div class="zoneOption">
+            <p>Selectionnez une option (<b>Mots</b> ou <b>Phrase</b>) et exercercez au clavier en saisisant la proposition qui s'affiche dans le champ en dessus</p>
+            <br>
+            <input type="radio" id="choix" name="choix" value="1" checked>
+            <label for="">Mots</label>
+            <input type="radio" id="choix" name="choix" value="2">
+            <label for="">Phrase</label>
+        </div>
+
+        <div class="zoneProposition">
+                Azerty
+        </div>
+
+        <div class="zoneEcriture">
+            <input type="text" id="zoneEcriture" placeholder="zone de saisie" style="text-align: center;">
+            <button id="btnValider">Valider</button>
+        </div>
+
+        <div class="zoneScore">
+                Votre score est de : <span>0</span>
+        </div>
+        
+    </main>
+
+
+    <footer>
+        <p>@copyright : Gilles BITEMO</p>
+    </footer>
+    <title>Document</title>
+</body>
+</html>
+
